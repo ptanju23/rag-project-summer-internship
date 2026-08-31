@@ -1,0 +1,25 @@
+M1B document: Metro Istanbul line M1B, Yenikapı - Kirazlı Metro Line Technical & Operational Documentation.
+M1B overview: Line Identifier | M1B Yenikapı - Kirazlı Metro Line.
+M1B overview: Operator | Metro Istanbul.
+M1B overview: Description | M1B shares common tracks with M1A between Yenikapı and Otogar. After Otogar Station, the line branches off westward, traveling through Esenler and Bağcılar Square, and terminates at Kirazlı, where it integrates with the M3 line.
+M1B metric: Total Network Length | 26.8 km (combined M1A/M1B network total).
+M1B metric: Total Stations on M1B Route | 13 stations.
+M1B metric: Active Fleet Size | 105 vehicles.
+M1B metric: One-Way Journey Duration | 35 minutes.
+M1B metric: Operating Hours | 06:00-00:00.
+M1B metric: Daily Passenger Capacity | 400,000 passengers.
+M1B metric: Peak Hour Frequency | Every 2.5 minutes.
+M1B line full station list: The M1B line (Yenikapı to Kirazlı) spans 13 stations: 01-Yenikapı (Start Terminus), 02-Aksaray, 03-Emniyet-Fatih, 04-Topkapı-Ulubatlı, 05-Bayrampaşa-Maltepe, 06-Sağmalcılar, 07-Kocatepe, 08-Otogar (Coach Station), 09-Esenler, 10-Menderes, 11-Üçyüzlü, 12-Bağcılar Meydan, and 13-Kirazlı / Kirazlı-Bağcılar (End Terminus).
+M1B station structure: All stations feature indoor seating areas.
+M1B accessibility: Accessibility infrastructure for M1B features 96 escalators and 41 elevators.
+M1B station structure: Tunnel / Underground Stations (8) | Yenikapı, Aksaray, Emniyet-Fatih, Topkapı-Ulubatlı, Menderes, Üçyüzlü, Bağcılar Square, Kirazlı Bağcılar.
+M1B station structure: At-Grade / Ground Stations (5) | Bayrampaşa-Maltepe, Sağmalcılar, Kartaltepe-Kocatepe, Otogar, Esenler.
+M1B commissioning: 11.03.1989 (Stage 1) | Emniyet-Fatih to Kartaltepe-Kocatepe.
+M1B commissioning: 03.09.1989 (Stage 1) | Aksaray Station.
+M1B commissioning: 14.06.2013 (Stage 4) | Otogar - Kirazlı Extension & M1B Operation Commissioning.
+M1B commissioning: 09.11.2014 (Stage 4) | Yenikapı Station Integration.
+M1B transfer: Yenikapı Station | M1A Metro Line, M2 Hacıosman Metro Line, T6 Sirkeci-Kazlıçeşme Tram Line, Marmaray.
+M1B transfer: Aksaray Station | T1 Kabataş-Bağcılar Tram Line.
+M1B transfer: Topkapı-Ulubatlı Station | T4 Topkapı-Mescid-i Selam Tram Line.
+M1B transfer: Bağcılar Meydan Station | T1 Kabataş-Bağcılar Tram Line.
+M1B transfer: Kirazlı Station | M3 Bakırköy-Kayaşehir Metro Line.

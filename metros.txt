@@ -1,0 +1,2 @@
+There are 10 metro lines in Istanbul covered in this database.
+Istanbul's metro lines are: M1A, M1B, M2, M3, M4, M5, M6, M7, M8, M9.

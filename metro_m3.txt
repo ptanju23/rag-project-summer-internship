@@ -1,0 +1,25 @@
+M3 document: Metro Istanbul line M3, Bakırköy Sahil - Kayaşehir Merkez Metro Line Technical & Operational Documentation.
+M3 overview: Line Identifier | M3 Bakırköy Sahil - Kayaşehir Merkez Metro Line.
+M3 overview: Description | The M3 line spans 26.7 km connecting Bakırköy Sahil to Kayaşehir Merkez through 20 stations. The line's first phase was inaugurated in 2013. Originally, a shuttle service operated between İkitelli Sanayi and Olimpiyat, which was later transferred to the M9 line operation. Extended to Çam and Sakura City Hospital and Kayaşehir Merkez in 2023, full service from Bakırköy Sahil to Kayaşehir Merkez commenced following the completion of the southern extension in March 2024.
+M3 metric: Total Line Length | 26.7 km.
+M3 metric: Total Stations on M3 Route | 20 stations.
+M3 metric: Platform Length | 180 meters (supports 8-car train operations).
+M3 metric: Headway at Peak Hours | 7 minutes.
+M3 metric: Depot & Workshop Location | Olympic Campus (70,000 m² total, 10,000 m² enclosed space).
+M3 metric: Depot Fleet Capacity | 120 vehicles.
+M3 line full station list: The M3 line (Bakırköy Sahil to Kayaşehir Merkez) spans 20 stations: 01-Bakırköy Sahil (Start Terminus), 02-Özgürlük Meydanı, 03-İncirli, 04-Haznedar, 05-İlkyuva, 06-Yıldıztepe, 07-Molla Gürani, 08-Kirazlı-Bağcılar, 09-Yenimahalle, 10-Mahmutbey (includes an additional 3rd track accessing vehicle yard), 11-İSTOÇ, 12-İkitelli Sanayi, 13-Turgut Özal, 14-Siteler, 15-Başak Konutları, 16-Başakşehir-Metrokent, 17-Onurkent, 18-Şehir Hastanesi, 19-Toplu Konutlar, and 20-Kayaşehir Merkez (End Terminus).
+M3 station structure: All 20 stations are built as tunnel/underground stations.
+M3 engineering: Fully automatic signaling, switch, and vehicle systems with manual override capability.
+M3 safety: Interactive, self-adjusting fire safety system constructed with heat-resistant, non-toxic materials, equipped with smoke control and tested evacuation protocols.
+M3 security: 24/7 CCTV camera monitoring, simulation-tested emergency response protocols, and uniformed security personnel.
+M3 commissioning: 14.06.2013 (Phase 1) | Opening of Kirazlı - Başakşehir Metrokent Line.
+M3 commissioning: 22.11.2013 | Opening of Olimpiyat Station (later integrated into M9).
+M3 commissioning: 08.04.2023 (Phase 2) | Opening of Onurkent, Şehir Hastanesi, Toplu Konutlar, and Kayaşehir Merkez Stations.
+M3 commissioning: 10.03.2024 (Phase 3) | Opening of the Southern Extension to Bakırköy Sahil.
+M3 commissioning: 08.10.2025 | Opening of Yıldıztepe Station.
+M3 transfer: Kayaşehir Merkez Station | M11 Gayrettepe - Istanbul Airport - Halkalı Line.
+M3 transfer: İkitelli Sanayi Station | M9 Ataköy - Olimpiyat Line.
+M3 transfer: Mahmutbey Station | M7 Yıldız - Mahmutbey Line.
+M3 transfer: Kirazlı-Bağcılar Station | M1B Yenikapı - Kirazlı Line.
+M3 transfer: İncirli Station | M1A Yenikapı - Atatürk Airport Line, Metrobus (BRT) Line.
+M3 transfer: Özgürlük Meydanı Station | B1 Halkalı - Gebze Marmaray Line, Bakırköy High-Speed Train Station.

@@ -1,0 +1,18 @@
+M6 document: Metro Istanbul line M6, Levent - Boğaziçi Üniversitesi / Hisarüstü Metro Line Technical & Operational Documentation.
+M6 overview: Line Identifier | M6 Levent - Boğaziçi Üniversitesi / Hisarüstü Metro Line.
+M6 overview: Operator | Metro Istanbul.
+M6 overview: Description | The M6 line provides direct access from the M2 Yenikapı - Hacıosman Metro Line at Levent to Boğaziçi University and the Hisarüstü area. Constructed using the New Austrian Tunnelling Method (NATM) as a single-tube system, it differs technically from all other Istanbul metro lines. Built on a single track, trains pass each other only at station areas, with single-way train movement in intermediate tunnel sections.
+M6 metric: Total Line Length | 3.3 km.
+M6 metric: Total Stations on M6 Route | 4 stations.
+M6 metric: Active Fleet Size | 12 cars.
+M6 metric: One-Way Journey Duration | 7 minutes.
+M6 metric: Operating Hours | 06:00-00:00.
+M6 metric: Daily Passengers / Ridership | 20,000 passengers.
+M6 metric: Daily Number of Trips | 156 one-way journeys.
+M6 metric: Peak Hour Travel Frequency | Every 5 minutes (07:00-10:00 and 16:00-20:00).
+M6 line full station list: The M6 line (Levent to Boğaziçi Üniversitesi - Hisarüstü) spans 4 stations: 01-Levent (Start Terminus), 02-Nispetiye, 03-Etiler (concourse-to-platform access exclusively via elevators), and 04-Boğaziçi Üniversitesi - Hisarüstü (End Terminus).
+M6 station structure: All 4 stations are constructed underground.
+M6 accessibility: At Etiler Station, access between the turnstile concourse and the platform area is provided exclusively by elevators. All other stations feature escalator access.
+M6 commissioning: 19.04.2015 | Revenue Commissioning Date.
+M6 transfer: Levent Station | M2 Yenikapı - Hacıosman Metro Line.
+M6 transfer: Boğaziçi Üniversitesi - Hisarüstü Station | F4 Boğaziçi Üniversitesi / Hisarüstü - Aşiyan Funicular Line.

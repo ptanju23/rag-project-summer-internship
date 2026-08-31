@@ -1,0 +1,37 @@
+M1A document: Metro Istanbul line M1A, Yenikapı - Atatürk Airport Metro Line Technical & Operational Documentation.
+M1A overview: Line Identifier | M1A Yenikapı - Atatürk Airport Metro Line.
+M1A overview: Operator | Metro Istanbul.
+M1A overview: Description | M1A is the first rail system operation of Metro Istanbul. It connects the historic Suriçi region to Bakırköy. Starting from the Yenikapı integration hub, it extends through the Bayrampaşa region to Otogar Station, then continues via Merter and Zeytinburnu to Atatürk Airport.
+M1A overview: Shared Network | The section between Yenikapı Station and Otogar Station is operated jointly with the M1B Line.
+M1A metric: Total Network Length | 26.8 km (combined M1A/M1B network total).
+M1A metric: Total Stations on M1A Route | 18 stations.
+M1A metric: Active Fleet Size | 105 vehicles.
+M1A metric: One-Way Journey Duration | 25 minutes.
+M1A metric: Operating Hours | 06:00-00:00.
+M1A metric: Daily Passenger Capacity | 400,000 passengers.
+M1A metric: Daily Journeys | 168 one-way journeys (Yenikapı - Kirazlı joint track).
+M1A metric: Peak Hour Frequency | Every 4 minutes.
+M1A line full station list: The M1A line (Yenikapı to Atatürk Havalimanı) spans 18 stations: 01-Yenikapı (Start Terminus), 02-Aksaray, 03-Emniyet-Fatih, 04-Topkapı-Ulubatlı, 05-Bayrampaşa-Maltepe, 06-Sağmalcılar, 07-Kocatepe (Kartaltepe-Kocatepe), 08-Otogar, 09-Terazidere, 10-Davutpaşa YTÜ, 11-Merter, 12-Zeytinburnu, 13-Bakırköy-İncirli, 14-Bahçelievler, 15-Ataköy-Şirinevler, 16-Yenibosna, 17-DTM-İstanbul Fuar Merkezi, and 18-Atatürk Havalimanı (End Terminus).
+M1A station structure: All stations feature indoor seating areas.
+M1A accessibility: System-wide accessibility infrastructure includes 61 escalators and 45 elevators.
+M1A station structure: Tunnel / Underground Stations (7) | Yenikapı, Aksaray, Emniyet-Fatih, Topkapı-Ulubatlı, Bakırköy-İncirli, Bahçelievler, Atatürk Airport.
+M1A station structure: Viaduct Stations (3) | Davutpaşa, Merter, DTM-İstanbul Fair Centre.
+M1A station structure: At-Grade / Ground Stations (8) | Bayrampaşa-Maltepe, Sağmalcılar, Kartaltepe-Kocatepe, Otogar, Terazidere, Zeytinburnu, Ataköy-Şirinevler, Yenibosna.
+M1A commissioning: 11.03.1989 (Stage 1) | Emniyet-Fatih to Kartaltepe-Kocatepe.
+M1A commissioning: 03.09.1989 (Stage 1) | Aksaray Station.
+M1A commissioning: 31.01.1994 (Stage 2) | Kartaltepe-Kocatepe to Zeytinburnu.
+M1A commissioning: 07.03.1994 (Stage 2) | Zeytinburnu to Bakırköy.
+M1A commissioning: 26.07.1995 (Stage 3) | Bakırköy to Ataköy.
+M1A commissioning: 25.08.1995 (Stage 3) | Ataköy to Yenibosna.
+M1A commissioning: 15.01.1999 (Stage 3) | Bahçelievler Station.
+M1A commissioning: 20.12.2002 (Stage 3) | DTM-İstanbul Fair Centre and Atatürk Airport.
+M1A commissioning: 14.06.2013 (Stage 4) | Otogar - Kirazlı Extension & M1B Operation.
+M1A commissioning: 09.11.2014 (Stage 4) | Yenikapı Station Integration.
+M1A transfer: Yenikapı Station | M1B Metro, M2 Hacıosman Metro, T6 Sirkeci-Kazlıçeşme Tram, Marmaray.
+M1A transfer: Aksaray Station | T1 Kabataş-Bağcılar Tram Line.
+M1A transfer: Merter Station | Metrobus (BRT).
+M1A transfer: Zeytinburnu Station | T1 Kabataş-Bağcılar Tram Line, Metrobus (BRT).
+M1A transfer: İncirli Station | M3 Bakırköy-Kayaşehir Metro Line, Metrobus (BRT).
+M1A transfer: Bahçelievler Station | Metrobus (BRT).
+M1A transfer: Ataköy-Şirinevler Station | Metrobus (BRT).
+M1A transfer: Yenibosna Station | M9 Ataköy-Olimpiyat Metro Line, Metrobus (BRT).

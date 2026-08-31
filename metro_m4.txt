@@ -1,0 +1,36 @@
+M4 document: Metro Istanbul line M4, Kadıköy - Sabiha Gökçen Airport Metro Line Technical & Operational Documentation.
+M4 overview: Line Identifier | M4 Kadıköy - Sabiha Gökçen Airport Metro Line.
+M4 overview: Operator | Metro Istanbul.
+M4 overview: Description | The M4 line spans 33.5 km connecting Kadıköy on the Anatolian side to Sabiha Gökçen Airport across 23 underground stations. The line starts from Kadıköy and follows the D100 highway corridor through the Acıbadem region up to Tavşantepe before extending to Sabiha Gökçen Airport. Phase 1 (Kadıköy to Kartal, 21.7 km, 16 stations) opened in 2012, Phase 2 extended the line to Tavşantepe (26.5 km, 19 stations) in 2016, and Phase 3 extended it to Sabiha Gökçen Airport in 2022.
+M4 metric: Total Line Length | 33.5 km.
+M4 metric: Total Stations on M4 Route | 23 stations.
+M4 metric: Active Fleet Size | 144 cars (36 units of 4-car train sets; stations built for 8-car sets).
+M4 metric: One-Way Journey Duration | 52 minutes.
+M4 metric: Operating Hours | 06:00-00:00.
+M4 metric: Daily Passenger Capacity / Ridership | 300,000 passengers.
+M4 metric: Peak Hour Travel Frequency | Every 5 minutes.
+M4 metric: Depot & Maintenance Facilities | Maltepe Station area (52-car depot, 32-car workshop; 100% underground).
+M4 line full station list: The M4 line (Kadıköy to Sabiha Gökçen Havalimanı) spans 23 stations: 01-Kadıköy (Start Terminus), 02-Ayrılık Çeşmesi, 03-Acıbadem, 04-Ünalan, 05-Göztepe, 06-Yenisahra, 07-Kozyatağı, 08-Bostancı (features an additional track line and two platforms), 09-Küçükyalı, 10-Maltepe, 11-Huzurevi, 12-Gülsuyu, 13-Esenkent, 14-Hastane-Adliye, 15-Soğanlık, 16-Kartal, 17-Yakacık-Adnan Kahveci, 18-Pendik, 19-Tavşantepe, 20-Fevzi Çakmak-Hastane, 21-Yayalar-Şeyhli, 22-Kurtköy, and 23-Sabiha Gökçen Havalimanı (End Terminus).
+M4 engineering: Construction Methods | TBM (Tunnel Boring Machine) used for Kadıköy-Kozyatağı and Kartal-Kaynarca sections; NATM (New Austrian Tunnelling Method) used for Kozyatağı-Kartal section. The entire line, including depot and workshop, is 100% underground.
+M4 engineering: Platform Specifications | Station platforms are 180 meters long, built to support 8-car train operations. Bostancı Station features a 3rd track and 2 platforms for alternative operational modes.
+M4 engineering: Signaling & Automation | Thales CBTC signalisation system with Movement Block continuous communication, allowing automated driverless train parking.
+M4 safety: Fire & Evacuation Systems | Fully NFPA-compliant automatic evacuation and smoke control system using ultra-heat-resistant, non-toxic materials.
+M4 power: Power Supply & Backup | Fed through 3 independent grid terminals. In a total grid blackout, dual-side generators auto-start within 15 seconds to pull stuck trains to stations. UPS backups sustain critical control and lighting for up to 3 hours.
+M4 security: Security Infrastructure | 1,281 CCTV cameras across all stations monitored 24/7, combined with uniformed security personnel.
+M4 commissioning: 14.01.2008 | Date of Tender.
+M4 commissioning: 06.03.2008 | Contract Date.
+M4 commissioning: 21.03.2008 | Commencement Date.
+M4 commissioning: 11.01.2011 | Arrival of the first train at the depot.
+M4 commissioning: 27.01.2011 | Laying the first train on the tracks.
+M4 commissioning: October 2011 | Completion of Tunnels.
+M4 commissioning: March 2012 | Commissioning of signalisation systems.
+M4 commissioning: 08.05.2012 | Start of test runs.
+M4 commissioning: 17.08.2012 (Phase 1) | Commissioning between Kadıköy and Kartal (16 stations, 21.7 km).
+M4 commissioning: 29.10.2013 | Opening of Ayrılık Çeşmesi Station.
+M4 commissioning: 10.10.2016 (Phase 2) | Commissioning of extension to Tavşantepe (19 stations, 26.5 km).
+M4 commissioning: 02.10.2022 (Phase 3) | Commissioning of extension to Sabiha Gökçen Airport (23 stations, 33.5 km).
+M4 transfer: Kadıköy Station | T3 Kadıköy - Moda Tram Line, ferries/sea buses/motorboats.
+M4 transfer: Ayrılık Çeşmesi Station | B1 Marmaray Line.
+M4 transfer: Ünalan Station | Metrobus (BRT) Line.
+M4 transfer: Kozyatağı Station | M8 Bostancı - Parseller Metro Line.
+M4 transfer: Pendik Station | Pendik High Speed Train (YHT) Station via İETT bus connections.

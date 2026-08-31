@@ -1,0 +1,30 @@
+M7 document: Metro Istanbul line M7, Yıldız - Mahmutbey Metro Line Technical & Operational Documentation.
+M7 overview: Line Identifier | M7 Yıldız - Mahmutbey Metro Line.
+M7 overview: Operator | Metro Istanbul.
+M7 overview: Description | The M7 line is the first fully automatic driverless metro on the European side of Istanbul. Upon full completion of all planned phases, it will extend between Kabataş and Esenyurt. The current operational line connects Beşiktaş to Mahmutbey, passing through Şişli, Kağıthane, Eyüpsultan, Gaziosmanpaşa, Esenler, and Bağcılar districts (serving a population of approx. 3 million).
+M7 metric: Total Line Length | 20 km.
+M7 metric: Total Stations on M7 Route | 17 stations.
+M7 metric: Active Fleet Size | 80 vehicles.
+M7 metric: One-Way Travel Time | 36 minutes.
+M7 metric: Operating Hours | 06:00-00:00.
+M7 metric: Vehicle Passenger Capacity | 2,160 passengers per train set.
+M7 metric: Hourly Transport Capacity | 70,000 passengers per hour per direction.
+M7 metric: Daily Trips | 176 one-way runs.
+M7 metric: Peak Hour Travel Frequency | Every 4 minutes.
+M7 line full station list: The M7 line (Yıldız to Mahmutbey) spans 17 stations: 01-Yıldız (Start Terminus), 02-Fulya, 03-Mecidiyeköy, 04-Çağlayan, 05-Kağıthane (located on a viaduct), 06-Nurtepe, 07-Alibeyköy (located on a viaduct), 08-Çırçır Mahallesi, 09-Veysel Karani-Akşemsettin, 10-Yeşilpınar, 11-Kazım Karabekir, 12-Yenimahalle, 13-Karadeniz Mahallesi, 14-Giyimkent-Tekstilkent, 15-Oruç Reis, 16-Göztepe Mahallesi, and 17-Mahmutbey (End Terminus).
+M7 station structure: 15 stations are completely underground.
+M7 station structure: 2 stations are elevated on viaducts | Kağıthane and Alibeyköy.
+M7 accessibility: Features tactile embossed floor guides, disabled restrooms, 225 escalators, 108 elevators, and 1,192 CCTV cameras.
+M7 vehicle accessibility: Vehicles feature an Induction Loop System broadcasting audio specifically for hearing aids.
+M7 platform safety: Fully domestic production Platform Screen Door Systems (PAKS), reducing costs by 50% compared to imported equivalents.
+M7 ranking: 9th in Europe / 21st in the World | Line length.
+M7 ranking: 24th in the World | Number of stations.
+M7 ranking: 7th in the World | Automated driverless operation line length (combined with M5).
+M7 ranking: 1st in the World | Instant train capacity (2,160 passengers).
+M7 commissioning: 28.10.2020 (Stage 1) | Commissioning of Mecidiyeköy - Mahmutbey.
+M7 commissioning: 02.01.2023 (Stage 2) | Commissioning of Yıldız - Mecidiyeköy (opening Fulya and Yıldız Stations).
+M7 transfer: Mecidiyeköy Station | M2 Yenikapı - Hacıosman Metro Line, Metrobus (BRT) Line.
+M7 transfer: Kağıthane Station | M11 Gayrettepe - Istanbul Airport - Halkalı Metro Line.
+M7 transfer: Alibeyköy Station | T5 Eminönü - Alibeyköy Tram Line.
+M7 transfer: Karadeniz Mahallesi Station | T4 Topkapı - Mescid-i Selam Tram Line.
+M7 transfer: Mahmutbey Station | M3 Bakırköy - Kayaşehir Metro Line.
