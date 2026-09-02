@@ -21,7 +21,7 @@ You can continue interacting with the model directly in the terminal, or type q 
 
 2. Run the app in your terminal:
 ```bash
-   streamlit run app.py
+streamlit run app.py
 ```
 This will cause a tab to open it your browser that contains the simple UI for the project. You may interact with the model here, and close the tab or quit using your terminal when you are done.
 
