@@ -228,6 +228,11 @@ if ask and question.strip():
         top_k=3
     )
 
+    context = "\n".join(
+    f"- {text}"
+    for text, score in results
+)
+
     # -----------------------------------------------------
     # SAME PROMPT LOGIC AS MAIN.PY
     # -----------------------------------------------------
