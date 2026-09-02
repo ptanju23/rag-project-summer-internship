@@ -23,3 +23,8 @@ You can continue interacting with the model directly in the terminal, or type q 
    ```bash
    streamlit run app.py
 This will cause a tab to open it your browser that contains the simple UI for the project. You may interact with the model here, and close the tab or quit using your terminal when you are done.
+
+Note that for this project to run, your python must have streamlit and foundry local downloaded. If that is not the case, you may download using the following command:
+   ```bash
+   pip install streamlit
+   pip install foundry-local-sdk
