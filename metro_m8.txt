@@ -1,20 +1,21 @@
 M8 document: Metro Istanbul line M8, Bostancı - Parseller Metro Line Technical & Operational Documentation.
-M8 overview: Line Identifier | M8 Bostancı - Parseller Metro Line.
-M8 overview: Operator | Metro Istanbul.
-M8 overview: Description | Construction of the M8 line was initiated by IMM in February 2016. It was planned and constructed to connect the major east-west metro and rail lines on the Anatolian side of Istanbul in a north-south direction.
-M8 metric: Total Line Length | 14.27 km.
-M8 metric: Total Stations on M8 Route | 13 stations.
-M8 metric: Active Fleet Size | 40 cars (10 4-car train sets).
-M8 metric: One-Way Journey Duration | 26 minutes.
-M8 metric: Operating Hours | 06:00-00:00.
-M8 metric: Daily Passengers / Ridership | 85,000 passengers.
-M8 metric: Daily Trips | 240 journeys (two-way total).
-M8 metric: Travel Frequency | 7 minutes.
-M8 line full station list: The M8 line (Bostancı to Parseller) spans 13 stations: 01-Bostancı (Start Terminus), 02-Emin Ali Paşa, 03-Ayşekadın, 04-Kozyatağı, 05-Küçükbakkalköy, 06-İçerenköy, 07-Kayışdağı, 08-Mevlana, 09-İMES, 10-MODOKO-KEYAP, 11-Dudullu, 12-Huzur, and 13-Parseller (End Terminus).
+M8 line identifier: M8 Bostancı - Parseller Metro Line.
+M8 operator: The operator of the M8 line is Metro Istanbul.
+M8 description: Construction of the M8 line was initiated by IMM in February 2016.
+M8 description: It was planned and constructed to connect the major east-west metro and rail lines on the Anatolian side of Istanbul in a north-south direction.
+M8 line length metric: Total line length is 14.27 km.
+M8 total stations metric: Total stations on M8 route is 13 stations.
+M8 fleet size metric: Active fleet size is 40 cars running as 10 4-car train sets.
+M8 travel duration metric: One-way journey duration is 26 minutes.
+M8 operating hours metric: Operating hours are 06:00-00:00.
+M8 passenger capacity metric: Daily passengers or ridership is 85,000 passengers.
+M8 daily journeys metric: Daily trips total 240 journeys for two-way total.
+M8 frequency metric: Travel frequency is 7 minutes.
+M8 full station list: The M8 line spans 13 stations from start terminus 01-Bostancı, 02-Emin Ali Paşa, 03-Ayşekadın, 04-Kozyatağı, 05-Küçükbakkalköy, 06-İçerenköy, 07-Kayışdağı, 08-Mevlana, 09-İMES, 10-MODOKO-KEYAP, 11-Dudullu, 12-Huzur, to end terminus 13-Parseller.
 M8 station structure: All 13 stations on the M8 line are built completely underground.
-M8 accessibility: Equipped with 160 escalators and 51 elevators.
-M8 commissioning: February 2016 | Construction Start Date by IMM.
-M8 commissioning: 06.01.2023 | Revenue Opening Date.
-M8 transfer: Bostancı Station | B1 Marmaray Line, High-Speed Train (YHT) Station, sea lines, and sea buses.
-M8 transfer: Kozyatağı Station | M4 Kadıköy - Sabiha Gökçen Airport Metro Line.
-M8 transfer: Dudullu Station | M5 Üsküdar - Samandıra Metro Line.
+M8 accessibility features: Line is equipped with 160 escalators and 51 elevators.
+M8 commissioning construction start: Construction start date by IMM occurred in February 2016.
+M8 commissioning opening: Revenue opening date occurred on 06.01.2023.
+M8 transfer Bostancı Station: Start terminus Bostancı Station offers transfer connections to B1 Marmaray Line, High-Speed Train (YHT) Station, sea lines, and sea buses.
+M8 transfer Kozyatağı Station: Kozyatağı Station offers transfer connections to M4 Kadıköy - Sabiha Gökçen Airport Metro Line.
+M8 transfer Dudullu Station: Dudullu Station offers transfer connections to M5 Üsküdar - Samandıra Metro Line.

@@ -114,7 +114,13 @@ def main():
     chat_model.load()
     chat_client = chat_model.get_chat_client()
 
-    print("\nModels loaded. Ready for questions.")
+    print("\nThis model answers questions about the Istanbul metro system. It uses a local database of text chunks to provide context for its answers. Please ask questions related to the Istanbul metro system.\n")
+    print("\nPrototype questions:")
+    print("How many stations are there in the M1A line?")
+    print("What is the line identifier for the M5 line?")
+    print("What is the M6 line's total length in km?")
+    print("What are the operating hours of the M2 line?")
+    print("\nTypos and misspelling may cause the model to not find the correct answer. Please check your spelling and try again.\n")
     print('Type "q" or "quit" to exit.\n')
 
     # Interaction Loop
@@ -136,12 +142,18 @@ def main():
                 "content": (
                     "You are a helpful assistant for the Istanbul metro system. "
                     "Answer using only the provided context. "
-                    "Do not make up answers. If you do not have the full context, say so."
+                    "Do not make up answers. If you do not have the full context, say so. "
                     "Strict rule: Do not answer questions that are not related to the Istanbul metro system. Redirect back to the context if the question is off-topic. "
-                    "After you retrieve the best match, evaulate if it truly answers the question. If it does not, say 'I don't know'. "
-                    "Avoid making up answers. If the context is insufficient, say 'I don't know'. "
-                    "Do not answer questions that need matching context with other context. If the context is insufficient, say 'I don't know'. "
-                    "If unsure, say 'I don't know'.\n\n"
+                    "Strict rule: never invent or change any answers. If the answer is fully in the context, answer exactly it. If the answer is not fully in the context, say so. "
+                    "Strict rule: if the questions ask for a specific thing that doesn't exist in the context, say 'I don't have that information'. "
+                    "Strict rule: if the questions asks for a station list, ask for a specific station number. If the number given does not match the context, say 'I don't know'. "
+                    "After you retrieve the best match, evaulate if it truly answers the question. If it does not, say so. "
+                    "For 'who' 'what' 'when' 'where' 'why' 'how' questions, if the context does not provide an absolutely exact answer, say 'I don't have that information'. "
+                    "Do not make up answers. If the context is insufficient, say so. "
+                    "Never convert related facts into an answer."
+                    "You may format the vector daatabas context to make it easier to read, but do not change the meaning of the context. "
+                    "Do not answer questions that need matching context with other context. If the context is insufficient, say 'I don't have that information'. "
+                    "If unsure, say 'I don't have that information'.\n\n"
                     f"Context:\n{context}"
                 ),
             },

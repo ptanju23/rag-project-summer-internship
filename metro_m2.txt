@@ -1,39 +1,40 @@
 M2 document: Metro Istanbul line M2, Yenikapı - Seyrantepe - Hacıosman Metro Line Technical & Operational Documentation.
-M2 overview: Line Identifier | M2 Yenikapı - Seyrantepe - Hacıosman Metro Line.
-M2 overview: Description | Construction for the M2 line began in 1992. The first operational stage was commissioned on September 16th, 2000. The mainline serves the Yenikapı to Hacıosman route, while a dedicated branch line operates from Sanayi Mahallesi Station to the Seyrantepe district. Passengers traveling to Seyrantepe must transfer at Sanayi Mahallesi Station.
-M2 metric: Total Network Length | 23.49 km.
-M2 metric: Total Stations on M2 Route | 16 stations.
-M2 metric: Active Fleet Size | 192 vehicles.
-M2 metric: One-Way Journey Duration | 32 minutes.
-M2 metric: Operating Hours | 06:00-00:00.
-M2 metric: Daily Passenger Capacity | 500,000 passengers average.
-M2 metric: Daily Journeys | 219 one-way journeys (total daily journeys: 694).
-M2 metric: Mainline Frequency (Yenikapı-Hacıosman) | Every 3 min. 55 sec. (8-car operation on weekdays/Saturdays).
-M2 metric: Branch Frequency (Sanayi Mahallesi-Seyrantepe) | Every 8.5 min. (all day).
-M2 line: The M2 mainline (Yenikapı to Hacıosman) spans 15 stations: 01-Yenikapı (Start Terminus), 02-Vezneciler - İstanbul Üniversitesi, 03-Haliç, 04-Şişhane, 05-Taksim, 06-Osmanbey, 07-Şişli - Mecidiyeköy, 08-Gayrettepe, 09-Levent, 10-4.Levent, 11-Sanayi Mahallesi (transfer required for Seyrantepe branch), 12-İTÜ - Ayazağa, 13-Atatürk Oto Sanayi, 14-Darüşşafaka, and 15-Hacıosman (End Terminus).
-M2 branch station: Seyrantepe (accessible via shuttle transfer at Sanayi Mahallesi).
-M2 station structure: Bridge / Viaduct Station (1) | Haliç Station (built over the Haliç Metro Bridge).
-M2 station structure: Tunnel / Underground Stations (15) | All other remaining stations are built as underground/tunnel stations.
-M2 commissioning: 19.08.1992 | Ground-breaking.
-M2 commissioning: 12.06.1994 | Merger of Taksim - Şişli Tunnels.
-M2 commissioning: 08.07.1994 | Merger of Şişli - 4. Levent Tunnels.
-M2 commissioning: 30.04.1995 | Merger of Taksim - Şişli and 4. Levent Tunnels.
-M2 commissioning: 11.01.1999 | Launching of the vehicles into the tunnel.
-M2 commissioning: 25.03.1999 | Commencing of test drives.
-M2 commissioning: 16.09.2000 (1st Stage) | Commissioning between Taksim and Levent.
-M2 commissioning: 31.10.2000 (1st Stage) | Commissioning between Levent and 4. Levent.
-M2 commissioning: 30.01.2009 (2nd Stage) | Commissioning of Taksim - Şişhane & 4. Levent - Atatürk Oto Sanayi Section.
-M2 commissioning: 02.09.2010 (2nd Stage) | Commissioning at Darüşşafaka Station.
-M2 commissioning: 11.11.2010 (2nd Stage) | Commissioning at Seyrantepe Station.
-M2 commissioning: 09.07.2011 (2nd Stage) | Commissioning at Hacıosman Station.
-M2 commissioning: 15.02.2014 (3rd Stage) | Commissioning of Yenikapı Extension.
-M2 commissioning: 16.03.2014 (3rd Stage) | Commissioning at Vezneciler - Istanbul University Station.
-M2 transfer: Yenikapı Station | M1A Yenikapı-Atatürk Airport Metro, M1B Yenikapı-Kirazlı Metro, T6 Sirkeci-Kazlıçeşme Tram, Marmaray.
-M2 transfer: Vezneciler - Istanbul University Station | T1 Kabataş-Bağcılar Tram Line.
-M2 transfer: Haliç Station | T5 Eminönü-Alibeyköy Tram Line.
-M2 transfer: Şişhane Station | T2 İstiklal Caddesi Tram Line, F2 Karaköy-Beyoğlu Historical Tunnel Line.
-M2 transfer: Taksim Station | T2 İstiklal Caddesi Tram Line, F1 Taksim-Kabataş Funicular Line.
-M2 transfer: Şişli - Mecidiyeköy Station | M7 Yıldız-Mahmutbey Metro Line, Metrobus (BRT).
-M2 transfer: Gayrettepe Station | M11 Gayrettepe-Istanbul Airport-Halkalı Metro Line, Metrobus (BRT).
-M2 transfer: Levent Station | M6 Levent-Boğaziçi Ü./Hisarüstü Metro Line.
-M2 transfer: Sanayi Mahallesi Station | Internal transfer to Seyrantepe Shuttle Extension (accessible via a separate platform area without leaving the system).
+M2 line identifier: M2 Yenikapı - Seyrantepe - Hacıosman Metro Line.
+M2 description: Construction for the M2 line began in 1992, with the first operational stage commissioned on September 16, 2000.
+M2 description: The mainline serves the route from Yenikapı to Hacıosman, while a dedicated branch line operates from Sanayi Mahallesi Station to Seyrantepe requiring a transfer at Sanayi Mahallesi Station.
+M2 network length metric: Total network length is 23.49 km.
+M2 total stations metric: Total stations on M2 route is 16 stations.
+M2 fleet size metric: Active fleet size is 192 vehicles.
+M2 travel duration metric: One-way journey duration is 32 minutes.
+M2 operating hours metric: Operating hours are 06:00-00:00.
+M2 passenger capacity metric: Daily passenger capacity averages 500,000 passengers.
+M2 daily journeys metric: Daily journeys total 219 one-way journeys, with 694 total daily journeys.
+M2 frequency metric: Mainline frequency between Yenikapı and Hacıosman is every 3 minutes 55 seconds during 8-car operation on weekdays and Saturdays.
+M2 frequency metric: Branch frequency between Sanayi Mahallesi and Seyrantepe is every 8.5 minutes all day.
+M2 full station list: The M2 mainline spans 15 stations from start terminus 01-Yenikapı, 02-Vezneciler - İstanbul Üniversitesi, 03-Haliç, 04-Şişhane, 05-Taksim, 06-Osmanbey, 07-Şişli - Mecidiyeköy, 08-Gayrettepe, 09-Levent, 10-4.Levent, 11-Sanayi Mahallesi, 12-İTÜ - Ayazağa, 13-Atatürk Oto Sanayi, 14-Darüşşafaka, to end terminus 15-Hacıosman.
+M2 branch station: Seyrantepe is a branch station accessible via shuttle transfer at Sanayi Mahallesi.
+M2 viaduct station: Haliç Station is a bridge and viaduct station built over the Haliç Metro Bridge.
+M2 tunnel underground stations: All other 15 remaining stations on the M2 route are built as tunnel and underground stations.
+M2 commissioning groundbreaking: Groundbreaking occurred on 19.08.1992.
+M2 commissioning tunnel merger: Merger of Taksim - Şişli Tunnels occurred on 12.06.1994.
+M2 commissioning tunnel merger: Merger of Şişli - 4. Levent Tunnels occurred on 08.07.1994.
+M2 commissioning tunnel merger: Merger of Taksim - Şişli and 4. Levent Tunnels occurred on 30.04.1995.
+M2 commissioning fleet launch: Launching of the vehicles into the tunnel occurred on 11.01.1999.
+M2 commissioning test drives: Commencing of test drives occurred on 25.03.1999.
+M2 commissioning stage 1 section: Stage 1 commissioning between Taksim and Levent occurred on 16.09.2000.
+M2 commissioning stage 1 extension: Stage 1 commissioning between Levent and 4. Levent occurred on 31.10.2000.
+M2 commissioning stage 2 section: Stage 2 commissioning of Taksim - Şişhane and 4. Levent - Atatürk Oto Sanayi Section occurred on 30.01.2009.
+M2 commissioning stage 2 station: Commissioning at Darüşşafaka Station occurred on 02.09.2010.
+M2 commissioning stage 2 branch: Commissioning at Seyrantepe Station occurred on 11.11.2010.
+M2 commissioning stage 2 terminus: Commissioning at Hacıosman Station occurred on 09.07.2011.
+M2 commissioning stage 3 extension: Stage 3 commissioning of Yenikapı Extension occurred on 15.02.2014.
+M2 commissioning stage 3 station: Commissioning at Vezneciler - Istanbul University Station occurred on 16.03.2014.
+M2 transfer Yenikapı Station: Start terminus Yenikapı Station offers transfer connections to M1A Yenikapı-Atatürk Airport Metro Line, M1B Yenikapı-Kirazlı Metro Line, T6 Sirkeci-Kazlıçeşme Tram Line, and Marmaray.
+M2 transfer Vezneciler - Istanbul University Station: Vezneciler - Istanbul University Station offers transfer connections to T1 Kabataş-Bağcılar Tram Line.
+M2 transfer Haliç Station: Haliç Station offers transfer connections to T5 Eminönü-Alibeyköy Tram Line.
+M2 transfer Şişhane Station: Şişhane Station offers transfer connections to T2 İstiklal Caddesi Tram Line and F2 Karaköy-Beyoğlu Historical Tunnel Line.
+M2 transfer Taksim Station: Taksim Station offers transfer connections to T2 İstiklal Caddesi Tram Line and F1 Taksim-Kabataş Funicular Line.
+M2 transfer Şişli - Mecidiyeköy Station: Şişli - Mecidiyeköy Station offers transfer connections to M7 Yıldız-Mahmutbey Metro Line and Metrobus (BRT).
+M2 transfer Gayrettepe Station: Gayrettepe Station offers transfer connections to M11 Gayrettepe-Istanbul Airport-Halkalı Metro Line and Metrobus (BRT).
+M2 transfer Levent Station: Levent Station offers transfer connections to M6 Levent-Boğaziçi Ü./Hisarüstü Metro Line.
+M2 transfer Sanayi Mahallesi Station: Sanayi Mahallesi Station offers an internal transfer connection to the Seyrantepe Shuttle Extension via a separate platform area without leaving the system.

@@ -1,27 +1,29 @@
 M5 document: Metro Istanbul line M5, Üsküdar - Sultanbeyli Metro Line Technical & Operational Documentation.
-M5 overview: Line Identifier | M5 Üsküdar - Sultanbeyli Metro Line.
-M5 overview: Operator | Metro Istanbul.
-M5 overview: Description | The M5 line is the second metro line on the Anatolian side of Istanbul and the first fully automated driverless (UTO) metro line in Türkiye. Starting at Üsküdar Square, it traverses Ümraniye and Çekmeköy, extends through Sancaktepe, and terminates at Sultanbeyli. Future extensions to the Kurtköy area are currently under design and planning.
-M5 metric: Total Line Length | 30.9 km.
-M5 metric: Total Stations on M5 Route | 24 stations.
-M5 metric: Active Fleet Size | 142 vehicles.
-M5 metric: One-Way Journey Duration | 50 minutes.
-M5 metric: Weekday Operating Hours | 06:00-24:00.
-M5 metric: Weekend Operating Hours | 66-hour continuous Night Metro service (06:00 Friday to 00:00 Sunday).
-M5 metric: Daily Passengers / Ridership | 375,000 passengers.
-M5 metric: Daily Number of Trips | 354 trips (both directions combined).
-M5 metric: Peak Hour Travel Frequency | Every 5 minutes.
-M5 line full station list: The M5 line (Üsküdar to Sultanbeyli) spans 24 stations: 01-Üsküdar (Start Terminus; platform length: 150 meters), 02-Fıstıkağacı, 03-Bağlarbaşı, 04-Altunizade, 05-Kısıklı (entrance-to-concourse level access exclusively via elevator), 06-Bulgurlu, 07-Ümraniye, 08-Çarşı, 09-Yamanevler, 10-Çakmak, 11-Ihlamurkuyu, 12-Altınşehir, 13-İmam Hatip Lisesi, 14-Dudullu, 15-Necip Fazıl, 16-Çekmeköy, 17-Meclis, 18-Sarıgazi, 19-Sancaktepe Şehir Hastanesi, 20-Sancaktepe, 21-Samandıra Merkez, 22-Veysel Karani, 23-Hasanpaşa, and 24-Sultanbeyli (End Terminus).
-M5 engineering: Construction Methods | Tunnels excavated using TBM (Tunnel Boring Machine) and NATM (New Austrian Tunnelling Method). All 24 stations are built underground.
-M5 engineering: Platform Specifications | Station platforms are 140 meters long (150 meters at Üsküdar Station), engineered for 6-car train operations.
-M5 automation: Automation & Platform Safety | Operates on an Unattended Train Operation (UTO) driverless system. All platforms are equipped with Platform Screen Doors (PSD) for passenger safety.
-M5 accessibility: Stations feature dedicated accessibility turnstiles, elevators, and escalators. At Kısıklı Station, concourse access is exclusively provided via elevators.
-M5 commissioning: 15.12.2017 (Phase 1) | Üsküdar - Yamanevler.
-M5 commissioning: 21.10.2018 (Phase 2) | Yamanevler - Çekmeköy.
-M5 commissioning: 16.03.2024 (Phase 3) | Çekmeköy - Samandıra Merkez.
-M5 commissioning: 22.05.2026 (Phase 4) | Samandıra Merkez - Sultanbeyli Merkez.
-M5 transfer: Üsküdar Station | Marmaray, İETT bus hub, ferry piers (maritime lines).
-M5 transfer: Altunizade Station | Metrobus (BRT) Line.
-M5 transfer: Dudullu Station | M8 Bostancı - Parseller Metro Line.
-M5 planned transfer: Çarşı Station | M12 Göztepe - Ümraniye Metro Line.
-M5 planned transfer: Altunizade Station | M14 Altunizade - Bosna Boulevard Metro Line.
+M5 line identifier: M5 Üsküdar - Sultanbeyli Metro Line.
+M5 operator: The operator of the M5 line is Metro Istanbul.
+M5 description: The M5 line is the second metro line on the Anatolian side of Istanbul and the first fully automated driverless (UTO) metro line in Türkiye.
+M5 description: Starting at Üsküdar Square, it traverses Ümraniye and Çekmeköy, extends through Sancaktepe, and terminates at Sultanbeyli, with future extensions to Kurtköy under planning.
+M5 line length metric: Total line length is 30.9 km.
+M5 total stations metric: Total stations on M5 route is 24 stations.
+M5 fleet size metric: Active fleet size is 142 vehicles.
+M5 travel duration metric: One-way journey duration is 50 minutes.
+M5 operating hours metric: Weekday operating hours are 06:00-24:00.
+M5 weekend operating hours metric: Weekend operating hours feature a 66-hour continuous Night Metro service from 06:00 Friday to 00:00 Sunday.
+M5 passenger capacity metric: Daily passengers or ridership is 375,000 passengers.
+M5 daily journeys metric: Daily number of trips is 354 trips with both directions combined.
+M5 frequency metric: Peak hour travel frequency is every 5 minutes.
+M5 full station list: The M5 line spans 24 stations from start terminus 01-Üsküdar (platform length: 150 meters), 02-Fıstıkağacı, 03-Bağlarbaşı, 04-Altunizade, 05-Kısıklı (entrance-to-concourse level access exclusively via elevator), 06-Bulgurlu, 07-Ümraniye, 08-Çarşı, 09-Yamanevler, 10-Çakmak, 11-Ihlamurkuyu, 12-Altınşehir, 13-İmam Hatip Lisesi, 14-Dudullu, 15-Necip Fazıl, 16-Çekmeköy, 17-Meclis, 18-Sarıgazi, 19-Sancaktepe Şehir Hastanesi, 20-Sancaktepe, 21-Samandıra Merkez, 22-Veysel Karani, 23-Hasanpaşa, to end terminus 24-Sultanbeyli.
+M5 engineering construction: Tunnels were excavated using TBM (Tunnel Boring Machine) and NATM (New Austrian Tunnelling Method).
+M5 engineering structure: All 24 stations are built underground.
+M5 platform specifications: Station platforms are 140 meters long (150 meters at Üsküdar Station), engineered for 6-car train operations.
+M5 automation system: Operates on an Unattended Train Operation (UTO) driverless system with Platform Screen Doors (PSD) equipped at all platforms.
+M5 accessibility features: Stations feature dedicated accessibility turnstiles, elevators, and escalators, with Kısıklı Station concourse access provided exclusively via elevators.
+M5 commissioning phase 1: Phase 1 commissioning between Üsküdar and Yamanevler occurred on 15.12.2017.
+M5 commissioning phase 2: Phase 2 commissioning between Yamanevler and Çekmeköy occurred on 21.10.2018.
+M5 commissioning phase 3: Phase 3 commissioning between Çekmeköy and Samandıra Merkez occurred on 16.03.2024.
+M5 commissioning phase 4: Phase 4 commissioning between Samandıra Merkez and Sultanbeyli Merkez occurred on 22.05.2026.
+M5 transfer Üsküdar Station: Start terminus Üsküdar Station offers transfer connections to Marmaray, İETT bus hub, and ferry piers (maritime lines).
+M5 transfer Altunizade Station: Altunizade Station offers transfer connections to Metrobus (BRT) Line.
+M5 transfer Dudullu Station: Dudullu Station offers transfer connections to M8 Bostancı - Parseller Metro Line.
+M5 planned transfer Çarşı Station: Çarşı Station features a planned transfer connection to M12 Göztepe - Ümraniye Metro Line.
+M5 planned transfer Altunizade Station: Altunizade Station features a planned transfer connection to M14 Altunizade - Bosna Boulevard Metro Line.

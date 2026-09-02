@@ -1,175 +1,299 @@
 import streamlit as st
 
-# Import only functions that already exist in main.py
-from main import create_db, find_relevant
+from main import (
+    create_db,
+    find_relevant,
+    open_and_load_documents,
+    load_text_document,
+    save_to_db,
+)
+
 from foundry_local_sdk import Configuration, FoundryLocalManager
 
 
+# ---------------------------------------------------------
+# PAGE
+# ---------------------------------------------------------
+
 st.set_page_config(
     page_title="Istanbul Metro Assistant",
-    page_icon="🚇",
     layout="centered"
 )
 
 
-@st.cache_resource(show_spinner="Loading AI models...")
-def init_system():
-    # Initialize Foundry Local exactly like main.py
-    config = Configuration(app_name="foundry_local_rag")
+# ---------------------------------------------------------
+# UI
+# ---------------------------------------------------------
+
+st.markdown(
+    """
+    <style>
+
+    html, body, [class*="css"] {
+        background-color: black !important;
+        color: white !important;
+        font-size: 16pt !important;
+    }
+
+    .stApp {
+        background-color: black;
+        color: white;
+    }
+
+    p, div, span, label {
+        font-size: 16pt !important;
+        color: white !important;
+    }
+
+    .stTextInput input {
+        background-color: black !important;
+        color: white !important;
+        border: 1px solid white !important;
+        font-size: 16pt !important;
+    }
+
+    .stButton button {
+        background-color: black !important;
+        color: white !important;
+        border: 1px solid white !important;
+        font-size: 16pt !important;
+    }
+
+    .stButton button:hover {
+        border: 1px solid white !important;
+        color: white !important;
+    }
+
+    header {
+        visibility: hidden;
+    }
+
+    footer {
+        visibility: hidden;
+    }
+
+    #MainMenu {
+        visibility: hidden;
+    }
+
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# ---------------------------------------------------------
+# INITIALIZE
+# ---------------------------------------------------------
+
+@st.cache_resource
+def initialize_system():
+
+    config = Configuration(
+        app_name="foundry_local_rag"
+    )
+
     FoundryLocalManager.initialize(config)
 
     manager = FoundryLocalManager.instance
 
-    # Database
-    cursor, connection = create_db()
 
-    # Embedding model
-    embedding_model = manager.catalog.get_model("qwen3-embedding-0.6b")
+    # -------------------------
+    # EMBEDDING MODEL
+    # -------------------------
+
+    embedding_model = manager.catalog.get_model(
+        "qwen3-embedding-0.6b"
+    )
+
     embedding_model.download()
     embedding_model.load()
-    embedding_client = embedding_model.get_embedding_client()
 
-    # Chat model
-    chat_model = manager.catalog.get_model("qwen2.5-1.5b")
+    embedding_client = (
+        embedding_model.get_embedding_client()
+    )
+
+
+    # -------------------------
+    # CHAT MODEL
+    # -------------------------
+
+    chat_model = manager.catalog.get_model(
+        "qwen2.5-1.5b"
+    )
+
     chat_model.download()
     chat_model.load()
-    chat_client = chat_model.get_chat_client()
 
-    return (
-        cursor,
-        connection,
-        embedding_model,
-        embedding_client,
-        chat_model,
-        chat_client
+    chat_client = (
+        chat_model.get_chat_client()
     )
 
+
+    return embedding_client, chat_client
 
 try:
-    (
-        cursor,
-        connection,
-        embedding_model,
-        embedding_client,
-        chat_model,
-        chat_client
-    ) = init_system()
 
-    st.sidebar.success("Metro System Ready")
+    embedding_client, chat_client = initialize_system()
 
 except Exception as e:
-    st.error("Error initializing the Metro RAG system.")
-    st.exception(e)
+
+    st.error(str(e))
     st.stop()
 
+# ---------------------------------------------------------
+# DATABASE CONNECTION
+# ---------------------------------------------------------
 
-st.title("🚇 Istanbul Metro RAG Assistant")
+cursor, connection = create_db()
 
-with st.form(key="metro_form"):
-    user_query = st.text_input(
-        "Enter your question:",
-        placeholder="e.g., Name all stations in M2"
+
+# ---------------------------------------------------------
+# INTRO TEXT
+# ---------------------------------------------------------
+
+st.markdown(
+    """
+This model answers questions about the Istanbul metro system. 
+It uses a local database of text chunks to provide context for its answers. 
+Please ask questions related to the Istanbul metro system.
+        
+EXAMPLE QUESTIONS:
+
+How many stations are there in the M1A line?
+
+What is the line identifier for the M5 line?
+
+What is the M6 line's total length in km?
+
+What are the operating hours of the M2 line?
+
+Typos and misspelling may cause the model to not find the correct answer. Please check your spelling and try again.
+
+"""
+)
+
+
+# ---------------------------------------------------------
+# QUESTION
+# ---------------------------------------------------------
+
+st.markdown("### Question")
+
+question = st.text_input(
+    "Question",
+    label_visibility="collapsed"
+)
+
+
+ask = st.button(
+    "Ask"
+)
+
+
+# ---------------------------------------------------------
+# ANSWER
+# ---------------------------------------------------------
+
+st.markdown("### Answer")
+
+answer_area = st.empty()
+
+
+if ask and question.strip():
+
+    query = question.strip()
+
+
+    # -----------------------------------------------------
+    # EMBED QUERY
+    # -----------------------------------------------------
+
+    query_response = (
+        embedding_client
+        .generate_embedding(query)
     )
 
-    submit_button = st.form_submit_button("Ask Assistant")
+    query_embedding = (
+        query_response.data[0].embedding
+    )
 
 
-if submit_button and user_query.strip():
+    # -----------------------------------------------------
+    # SEARCH DATABASE
+    # -----------------------------------------------------
 
-    with st.spinner("Searching metro knowledge base..."):
+    results = find_relevant(
+        query_embedding,
+        cursor,
+        top_k=3
+    )
 
-        # Generate embedding exactly like main.py
-        query_response = embedding_client.generate_embedding(user_query)
-        query_embedding = query_response.data[0].embedding
+    # -----------------------------------------------------
+    # SAME PROMPT LOGIC AS MAIN.PY
+    # -----------------------------------------------------
 
-        # Dynamic top_k
-        list_keywords = [
-            "all",
-            "list",
-            "stations",
-            "name",
-            "route",
-            "every"
-        ]
+    messages = [
+        {
+            "role": "system",
+            "content": (
+                    "You are a helpful assistant for the Istanbul metro system. "
+                    "Answer using only the provided context. "
+                    "Do not make up answers. If you do not have the full context, say so. "
+                    "Strict rule: Do not answer questions that are not related to the Istanbul metro system. Redirect back to the context if the question is off-topic. "
+                    "Strict rule: never invent or change any answers. If the answer is fully in the context, answer exactly it. If the answer is not fully in the context, say so. "
+                    "Strict rule: if the questions ask for a specific thing that doesn't exist in the context, say 'I don't have that information'. "
+                    "Strict rule: if the questions asks for a station list, ask for a specific station number. If the number given does not match the context, say 'I don't know'. "
+                    "After you retrieve the best match, evaulate if it truly answers the question. If it does not, say so. "
+                    "Do not make up answers. If the context is insufficient, say so. "
+                    "For 'who' 'what' 'when' 'where' 'why' 'how' questions, if the context does not provide an absolutely exact answer, say 'I don't have that information'. "
+                    "Never convert related facts into an answer."
+                    "You may format the vector daatabas context to make it easier to read, but do not change the meaning of the context. "
+                    "Do not answer questions that need matching context with other context. If the context is insufficient, say 'I don't have that information'. "
+                    "If unsure, say 'I don't have that information'.\n\n"
+                f"Context:\n{context}"
+            ),
+        },
 
-        is_list_question = any(
-            keyword in user_query.lower()
-            for keyword in list_keywords
-        )
+        {
+            "role": "user",
+            "content": query
+        },
+    ]
 
-        top_k = 6 if is_list_question else 3
 
-        # Search database exactly using main.py function
-        results = find_relevant(
-            query_embedding,
-            cursor,
-            top_k=top_k
-        )
+    # -----------------------------------------------------
+    # STREAM ANSWER
+    # -----------------------------------------------------
 
-        if not results:
+    full_answer = ""
 
-            st.warning("No relevant information found in the database.")
 
-        else:
+    for chunk in (
+        chat_client
+        .complete_streaming_chat(messages)
+    ):
 
-            # main.py returns (text, score) tuples
-            context = "\n".join(
-                f"- {text}"
-                for text, score in results
+        if (
+            chunk.choices
+            and len(chunk.choices) > 0
+        ):
+
+            content = (
+                chunk
+                .choices[0]
+                .delta
+                .content
             )
 
-            # Same prompt structure as main.py
-            messages = [
-                {
-                    "role": "system",
-                    "content": (
-                        "You are a helpful assistant for the Istanbul metro system. "
-                        "Answer using only the provided context. "
-                        "Do not make up answers. If you do not have the full context, say so. "
-                        "Strict rule: Do not answer questions that are not related to the Istanbul metro system. "
-                        "Redirect back to the context if the question is off-topic. "
-                        "After you retrieve the best match, evaluate if it truly answers the question. "
-                        "If it does not, say 'I don't know'. "
-                        "Avoid making up answers. "
-                        "If the context is insufficient, say 'I don't know'. "
-                        "Do not answer questions that need matching context with other context. "
-                        "If the context is insufficient, say 'I don't know'. "
-                        "If unsure, say 'I don't know'.\n\n"
-                        f"Context:\n{context}"
-                    )
-                },
-                {
-                    "role": "user",
-                    "content": user_query
-                }
-            ]
+            if content:
 
-            st.markdown("### Answer")
+                full_answer += content
 
-            answer_placeholder = st.empty()
-            full_answer = ""
+                answer_area.markdown(
+                    full_answer + "▌"
+                )
 
-            # Stream response exactly like main.py
-            for chunk in chat_client.complete_streaming_chat(messages):
 
-                if chunk.choices and len(chunk.choices) > 0:
-
-                    content = chunk.choices[0].delta.content
-
-                    if content:
-                        full_answer += content
-                        answer_placeholder.markdown(full_answer + "▌")
-
-            # Final answer without cursor
-            answer_placeholder.markdown(full_answer)
-
-            # Debug section
-            with st.expander("Retrieved Chunks (Debug)"):
-
-                for index, (text, score) in enumerate(results, start=1):
-
-                    st.markdown(
-                        f"**[{index}] Score: {score:.4f}**"
-                    )
-
-                    st.text(text)
+    answer_area.markdown(
+        full_answer
+    )

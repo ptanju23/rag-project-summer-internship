@@ -1,20 +1,21 @@
 M9 document: Metro Istanbul line M9, Ataköy - Olimpiyat Metro Line Technical & Operational Documentation.
-M9 overview: Line Identifier | M9 Ataköy - Olimpiyat Metro Line.
-M9 overview: Operator | Metro Istanbul.
-M9 overview: Description | The M9 line connects the Atatürk Olympic Stadium, Başakşehir industrial zones in northwestern Istanbul, and residential areas along the Halkalı-İkitelli axis. It integrates north-south suburban and industrial corridors with key east-west backbone lines, including the M1A Metro, B1 Marmaray, and Metrobus lines.
-M9 metric: Total Line Length | 17.2 km.
-M9 metric: Total Stations on M9 Route | 14 stations.
-M9 metric: Active Fleet Size | 20 trains.
-M9 metric: One-Way Journey Time | 26 minutes.
-M9 metric: Operating Hours | 06:00-24:00.
-M9 metric: Peak Hour Headway / Frequency | Every 9 minutes.
-M9 line full station list: The M9 line (Ataköy to Olimpiyat) spans 14 stations: 01-Ataköy (Start Terminus), 02-Yenibosna, 03-Çobançeşme, 04-29 Ekim Cumhuriyet, 05-Doğu Sanayi, 06-Mimar Sinan, 07-15 Temmuz, 08-Halkalı Caddesi, 09-Atatürk Mahallesi, 10-Bahariye, 11-MASKO, 12-İkitelli Sanayi (constructed with 2 central platforms and 4 tracks), 13-Ziya Gökalp Mahallesi, and 14-Olimpiyat (End Terminus; constructed with 2 platforms and 3 tracks).
-M9 station structure: Olimpiyat Station is designed with 2 platforms and 3 tracks specifically to support high passenger volume for events at the Atatürk Olympic Stadium.
-M9 station structure: İkitelli Sanayi Station is built with 2 central island platforms and 4 tracks facilitating cross-platform and concourse-level transfers.
-M9 commissioning: 29.05.2021 (Phase 1) | Opening of Bahariye - MASKO section (combined with existing shuttle track sections İkitelli Sanayi, Ziya Gökalp Mahallesi, and Olimpiyat).
-M9 commissioning: 18.03.2024 (Phase 2) | Opening of Ataköy - Bahariye extension, creating a continuous line.
-M9 commissioning: 30.08.2024 | Revenue opening of Mimar Sinan Station.
-M9 transfer: Ataköy Station | B1 Halkalı - Gebze Marmaray Line.
-M9 transfer: Yenibosna Station | M1A Yenikapı - Atatürk Airport Metro Line, Metrobus (BRT) Line.
-M9 transfer: İkitelli Sanayi Station | M3 Bakırköy - Kayaşehir Metro Line.
-M9 transfer: Olimpiyat Station | M11 Gayrettepe - Istanbul Airport - Halkalı Metro Line.
+M9 line identifier: M9 Ataköy - Olimpiyat Metro Line.
+M9 operator: The operator of the M9 line is Metro Istanbul.
+M9 description: The M9 line connects the Atatürk Olympic Stadium, Başakşehir industrial zones in northwestern Istanbul, and residential areas along the Halkalı-İkitelli axis.
+M9 description: It integrates north-south suburban and industrial corridors with key east-west backbone lines, including the M1A Metro, B1 Marmaray, and Metrobus lines.
+M9 line length metric: Total line length is 17.2 km.
+M9 total stations metric: Total stations on M9 route is 14 stations.
+M9 fleet size metric: Active fleet size is 20 trains.
+M9 travel duration metric: One-way journey time is 26 minutes.
+M9 operating hours metric: Operating hours are 06:00-24:00.
+M9 frequency metric: Peak hour headway frequency is every 9 minutes.
+M9 full station list: The M9 line spans 14 stations from start terminus 01-Ataköy, 02-Yenibosna, 03-Çobançeşme, 04-29 Ekim Cumhuriyet, 05-Doğu Sanayi, 06-Mimar Sinan, 07-15 Temmuz, 08-Halkalı Caddesi, 09-Atatürk Mahallesi, 10-Bahariye, 11-MASKO, 12-İkitelli Sanayi (constructed with 2 central platforms and 4 tracks), 13-Ziya Gökalp Mahallesi, to end terminus 14-Olimpiyat (constructed with 2 platforms and 3 tracks).
+M9 station structure Olimpiyat: End terminus Olimpiyat Station is designed with 2 platforms and 3 tracks specifically to support high passenger volume for events at the Atatürk Olympic Stadium.
+M9 station structure İkitelli Sanayi: İkitelli Sanayi Station is built with 2 central island platforms and 4 tracks facilitating cross-platform and concourse-level transfers.
+M9 commissioning phase 1: Phase 1 opening of Bahariye - MASKO section (combined with existing shuttle track sections İkitelli Sanayi, Ziya Gökalp Mahallesi, and Olimpiyat) occurred on 29.05.2021.
+M9 commissioning phase 2: Phase 2 opening of Ataköy - Bahariye extension creating a continuous line occurred on 18.03.2024.
+M9 commissioning Mimar Sinan: Revenue opening of Mimar Sinan Station occurred on 30.08.2024.
+M9 transfer Ataköy Station: Start terminus Ataköy Station offers transfer connections to B1 Halkalı - Gebze Marmaray Line.
+M9 transfer Yenibosna Station: Yenibosna Station offers transfer connections to M1A Yenikapı - Atatürk Airport Metro Line and Metrobus (BRT) Line.
+M9 transfer İkitelli Sanayi Station: İkitelli Sanayi Station offers transfer connections to M3 Bakırköy - Kayaşehir Metro Line.
+M9 transfer Olimpiyat Station: End terminus Olimpiyat Station offers transfer connections to M11 Gayrettepe - Istanbul Airport - Halkalı Metro Line.
