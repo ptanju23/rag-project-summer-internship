@@ -12,19 +12,21 @@ This repository implements a Retrieval-Augmented Generation (RAG) system for the
 ## How to Run the Project
 
 1. Run the core script in your terminal:
-   ```bash
-   python main.py
-   
+```bash
+python main.py
+```
 Executing main.py automatically creates metro.db, the SQLite database for the project.
 Once initialized, the model will prompt you in the terminal to enter a query.
 You can continue interacting with the model directly in the terminal, or type q or quit to exit.
 
 2. Run the app in your terminal:
-   ```bash
+```bash
    streamlit run app.py
+```
 This will cause a tab to open it your browser that contains the simple UI for the project. You may interact with the model here, and close the tab or quit using your terminal when you are done.
 
 Note that for this project to run, your python must have streamlit and foundry local downloaded. If that is not the case, you may download using the following commands:
-   ```bash
-   pip install streamlit
-   pip install foundry-local-sdk
+```bash
+pip install streamlit
+pip install foundry-local-sdk
+```
