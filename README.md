@@ -25,8 +25,12 @@ streamlit run app.py
 ```
 This will cause a tab to open it your browser that contains the simple UI for the project. You may interact with the model here, and close the tab or quit using your terminal when you are done.
 
-Note that for this project to run, your python must have streamlit and foundry local downloaded. If that is not the case, you may download using the following commands:
+Note that for this project to run, your python must have streamlit and foundry local downloaded. If that is not the case, you may download using the following command:
 ```bash
-pip install streamlit
-pip install foundry-local-sdk
+pip install -r requirements.txt
 ```
+
+## Limitations
+
+While the model can accurately answer questions that have direct answers in the database, when asked to link certain information to configure an answer, it fails and hallucinates. For example, before **`metros.txt`** was added, when asked how many metro lines there were in the database, the model could not come up with an answer.
+In order to keep answers short and precise, the clusters retrieved have k=3, because if the k value was higher the model would give extra answers that were not asked for, and if the k value was lower the model would sometimes be unable to find the answer or would find the wrong answer. At this k value, it works most precise.
