@@ -38,10 +38,15 @@ In order to keep answers short and precise, the clusters retrieved have k=3, bec
 ## Testing Phase
 
 **Question:** How many stations are there in the M1A line? **Answer:** The M1A line has 18 stations. **Status:** Correct
+
 **Question:** What are the operating hours of the M2 line? **Answer:** The operating hours of the M2 line are from 06:00 to 00:00. **Status:** Correct
+
 **Question:** How many metro lines are there in Çanakkale? **Answer:** I don't have that information. **Status:** Correct
+
 **Question:** [left blank] **Answer:** [blank] **Status:** Correct
+
 **Question:** What is the transfer station from M2 to M5? **Answer:** Levent. **Status:** Incorrect - vector search mismatch
+
 **Question:** When was M7 built fully? **Answer:** The M7 line is described as being "designed to extend between Kabataş and Esenyurt upon full completion". This suggests that the construction phase has been completed by now, implying that the line should be fully operational at this point. However, without more specific information about when the extension from Kabataş to Esenyurt was completed, we cannot definitively state when the entire line was built fully. Therefore, I don't have that information. **Status:** Correct
 
 So the model is accurate for answers that exist in the database but it fails at connecting information that isn't stored as a single chunk.
